@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Gobelin",
+    "role": "568516500021968919",
+    "stats": {
+      "force": 0.08,
+      "Pv": 0.02
+    }
+  },
+  {
+    "name": "Thérianthrope",
+    "role": "568516964897652747",
+    "stats": {
+      "force": 0.1,
+      "Pv": 0
+    }
+  },
+  {
+    "name": "Humain",
+    "role": "568516903769735229",
+    "stats": {
+      "force": 0.02,
+      "Pv": 0.08
+    }
+  },
+  {
+    "name": "Néphilim",
+    "role": "568517023433359380",
+    "stats": {
+      "force": 0,
+      "Pv": 0.1
+    }
+  }
+]

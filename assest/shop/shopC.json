@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Première Objet",
+    "description": "Sans description\n*(+20Force)*",
+    "role": "748601999515451484",
+    "prix": 100,
+    "nbrItem1": 2,
+    "nbrItem2": 2,
+    "item1": "Aucun",
+    "item2": "Aucun"
+  },
+  {
+    "name": "Deuxième Objet",
+    "description": "Sans description\n*(+10%Force)*",
+    "role": "748602260405223545",
+    "prix": 100,
+    "nbrItem1": 2,
+    "nbrItem2": 2,
+    "item1": "Aucun",
+    "item2": "Aucun"
+  },
+  {
+    "name": "Troisième Objet",
+    "description": "Sans description\n*(+450Pv)*",
+    "role": "748602526382686241",
+    "prix": 100,
+    "nbrItem1": 2,
+    "nbrItem2": 2,
+    "item1": "Aucun",
+    "item2": "Aucun"
+  },
+  {
+    "name": "Quatrième Objet",
+    "description": "Sans description\n*(+10%Pv)*",
+    "role": "748602596033298484",
+    "prix": 100,
+    "nbrItem1": 2,
+    "nbrItem2": 2,
+    "item1": "Aucun",
+    "item2": "Aucun"
+  },
+  {
+    "name": "Cinquième Objet",
+    "description": "Sans description\n*(+10Force et +200Pv)*",
+    "role": "748602665470132418",
+    "prix": 100,
+    "nbrItem1": 2,
+    "nbrItem2": 2,
+    "item1": "Aucun",
+    "item2": "Aucun"
+  },
+  {
+    "name": "Sixième Objet",
+    "description": "Sans description\n*(+5%Force et +5%Pv)*",
+    "role": "748602737498914956",
+    "prix": 100,
+    "nbrItem1": 2,
+    "nbrItem2": 2,
+    "item1": "Aucun",
+    "item2": "Aucun"
+  }
+]
