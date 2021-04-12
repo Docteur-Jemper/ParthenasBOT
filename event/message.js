@@ -9,6 +9,8 @@ module.exports = async (bot, message) => {
   const data = await bot.getGuild(message.guild);
   const position = data.users.map(e => e.id).indexOf(message.member.id);
   const userInfo = data.users[position];
+  const member = message.guild.member(message.mentions.users.first());
+  const positionMember = data.users.map(e => e.id).indexOf(member.id);
   if (message.author.bot) return;
   // Si Nouveau
   if (message.member.roles.cache.get("685239415194648577")) {
@@ -63,6 +65,75 @@ module.exports = async (bot, message) => {
       { guildID: message.guild.id },
       { $push: { users: {
         id: message.author.id,
+        EXP: {
+          experience: 0,
+          level: 1,
+          force: 100,
+          forceActu: 100,
+          Pv: 3000,
+          PvActu: 3000
+        },
+        MONNAIE: {
+          monnaie: 500,
+          monnaieB: -100
+        },
+        MOB: {
+          mob: "Aucun",
+          Pv: 0,
+          PvBase: 0,
+          Niveau: "Aucun",
+          Force:0
+        },
+        INVENTAIRE: {
+          équipement: {
+            Armure: "Aucune",
+            Arme: "Aucune",
+            Talisman: "Aucun"
+          },
+          inventaire: {
+            Peau: 0,
+            Griffe: 0,
+            Viande: 0,
+            Bois: 0,
+            Sabot: 0,
+            Dent: 0,
+            Ecaille: 0,
+            Carapace: 0,
+            Mandibule: 0,
+            Crâne: 0,
+            Sang: 0,
+            Aile: 0,
+            Oreille: 0,
+            Corne: 0,
+            Oeil: 0,
+            Pollen: 0,
+            HerbeMedic: 0,
+            Azurite: 0,
+            Diamant: 0
+          },
+        },
+        COOLDOWN: {
+          entr: new Date(0),
+          entrCd: new Date(0),
+          potion: new Date(0)
+        },
+        Hierarchie: "",
+        Race: "",
+        Genre: "",
+        Age: "",
+        stats: {}
+      }}}
+    ).then(d => console.log("New user !"))
+      .catch(console.error);
+    Delete();
+    return;
+  }
+
+  if (message.guild && positionMember == -1) {
+    await Guild.updateOne(
+      { guildID: message.guild.id },
+      { $push: { users: {
+        id: member.id,
         EXP: {
           experience: 0,
           level: 1,
