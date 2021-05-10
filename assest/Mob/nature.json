@@ -1,0 +1,123 @@
+[
+  {
+    "mob" : "Aucun",
+    "Pv" : 0,
+    "Niveau" : "Aucun",
+    "Force" : 0,
+    "Image" : "null",
+    "channel" : "Aucun",
+    "loot1" : ["","Rien"],
+    "loot2" : ["Rien"],
+    "ExpGain" : [0,0]
+  },
+  {
+    "mob" : "Loup",
+    "Pv" : 1000,
+    "Niveau" : "Débutant",
+    "Force" : 250,
+    "Image" : "http://ekladata.com/WLSt1CuOFVWqskbgaY5nc_m7tiE.png",
+    "channel" : "568923274658971668",
+    "loot1" : ["<:Griffe_de_loup:694189763590094891> Griffe de Loup :","Griffe"],
+    "loot2" : ["<:Peau_de_loup:694189902702837800> Peau de Loup :","Peau"],
+    "ExpGain" : [2,1]
+  },
+  {
+    "mob" : "Cerf",
+    "Pv" : 800,
+    "Niveau" : "Débutant",
+    "Force" : 100,
+    "Image" : "https://i.redd.it/2w2alpuylqz11.jpg",
+    "channel" : "568923274658971668",
+    "loot1" : ["<:Viande_de_cerf:694210828462719006> Viande de Cerf :","Viande"],
+    "loot2" : ["<:Bois_de_cerf:694208793013256292> Bois de Cerf :","Bois"],
+    "ExpGain" : [1,0]
+  },
+  {
+    "mob" : "Pripom",
+    "Pv" : 100,
+    "Niveau" : "Débutant",
+    "Force" : 150,
+    "Image" : "https://mcdn.wallpapersafari.com/medium/25/61/Z9iaVj.jpg",
+    "channel" : "568937782630678541",
+    "loot1" : ["<:Sabot_de_Pripom:694236178911592458> Sabot de Pripom :","Sabot"],
+    "loot2" : ["<:Pollen_de_Pripom:694236079498461284> Pollen de Pripom :","Pollen"],
+    "ExpGain" : [1,0]
+  },
+  {
+    "mob" : "Golime",
+    "Pv" : 1500,
+    "Niveau" : "Débutant",
+    "Force" : 120,
+    "Image" : "https://i.pinimg.com/originals/23/1f/ef/231fefd0fe5d064fe3714d930f72bf8c.jpg",
+    "channel" : "568937782630678541",
+    "loot1" : ["<:Pierre_dazurite:694498949603786792> Pierre d'Azurite :","Azurite"],
+    "loot2" : ["<:Herbe_Medicinal:694502875929247835> Herbe Médicinal :","HerbeMedic"],
+    "ExpGain" : [3,2]
+  },
+  {
+    "mob" : "Croco",
+    "Pv" : 1600,
+    "Niveau" : "Aguéri",
+    "Force" : 250,
+    "Image" : "https://i.pinimg.com/originals/50/46/a6/5046a6dafc5b293dd59e09a260ad72a3.jpg",
+    "channel" : "569505805561364511",
+    "loot1" : ["<:Dent_de_croco:694510570732388432> Dent de Croco :","Dent"],
+    "loot2" : ["<:ecaille_de_croco:694506268022538370> Ecaille de Croco :","Ecaille"],
+    "ExpGain" : [3,2]
+  },
+  {
+    "mob" : "Golem",
+    "Pv" : 2500,
+    "Niveau" : "Convenable",
+    "Force" : 400,
+    "Image" : "https://vignette.wikia.nocookie.net/hanin/images/c/ce/Golem.png/revision/latest?cb:20180319155750&path-prefix:fr",
+    "channel" : "569207554404515841",
+    "loot1" : ["<:Pierre_dazurite:694498949603786792> Pierre d'Azurite :","Azurite"],
+    "loot2" : ["<:Diamant:694513788275130489> Diamant :","Diamant"],
+    "ExpGain" : [0,5]
+  },
+  {
+    "mob" : "Gimille",
+    "Pv" : 2000,
+    "Niveau" : "Convenable",
+    "Force" : 450,
+    "Image" : "https://i.pinimg.com/originals/4b/52/7d/4b527d00f51d375a9542f2f14b683285.jpg",
+    "channel" : "569209205207072773",
+    "loot1" : ["<:Carapace_de_Gimille:694518245801328751> Carapace de Gimille :","Carapace"],
+    "loot2" : ["<:Mandibule_de_Gimille:694522865416011816> Mandibule de Gimille :","Mandibule"],
+    "ExpGain" : [5,4]
+  },
+  {
+    "mob" : "Wretch",
+    "Pv" : 1800,
+    "Niveau" : "Convenable",
+    "Force" : 500,
+    "Image" : "https://vignette.wikia.nocookie.net/gearsofwar/images/2/2d/Wretch.png/revision/latest?cb:20110713224628",
+    "channel" : "569209205207072773",
+    "loot1" : ["<:Crane_de_Wretch:694566544885284984> Crâne de Wretch :","Crâne"],
+    "loot2" : ["<:Fiole_de_sang_de_Wretch:694566605451034645> Fiole de Sang de Wretch :","Sang"],
+    "ExpGain" : [5,1]
+  },
+  {
+    "mob" : "Varghulf",
+    "Pv" : 2000,
+    "Niveau" : "Convenable",
+    "Force" : 400,
+    "Image" : "https://bibliotheque-imperiale.com/images/thumb/7/76/Cda_demo2.jpg/500px-Cda_demo2.jpg",
+    "channel" : "569209235166986249",
+    "loot1" : ["<:Aile_de_Varghulf:694566725496078337> Aile de Varghulf :","Aile"],
+    "loot2" : ["<:Oreille_de_Varghulf:694566767284191262> Oreille de Varghulf :","Oreille"],
+    "ExpGain" : [5,4]
+  },
+  {
+    "mob" : "Minotaur",
+    "Pv" : 2000,
+    "Niveau" : "Convenable",
+    "Force" : 500,
+    "Image" : "https://i.pinimg.com/originals/50/76/76/507676241d3dbfafad32e626d07e15a1.jpg",
+    "channel" : "569209235166986249",
+    "loot1" : ["<:Corne_de_Minotaur:694566793213247578> Corne de Minotaur :","Corne"],
+    "loot2" : ["<:Oeil_de_Minotaur:694566836754448455> Oeil de Minotaur :","Oeil"],
+    "ExpGain" : [3,7]
+  }
+]
