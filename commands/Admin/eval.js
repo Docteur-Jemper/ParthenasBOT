@@ -9,7 +9,7 @@ module.exports.run = async (bot, message, args) => {
   const code = args.join(" ");
   const evaled = eval(code);
   const cleanCode = await clean(evaled);
-  message.channel.send(cleanCode, { code: "js" });
+  message.channel.send(cleanCode);
 };
 
 module.exports.help = {
